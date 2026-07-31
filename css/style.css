@@ -17,6 +17,7 @@ a{
   text-decoration: none;
 }
 
+
 /*header*/
 .header{
   background:#333;
@@ -37,8 +38,9 @@ a{
   align-items: center;
   color: #ffffff;
   font-family: 'kalam', cursive;
-  font-size: 2,2rem;
-  font-weight: 700;
+  font-size: 3rem;
+  font-weight: 100;
+  letter-spacing: 2px;
 }
 .logo-icon {
   color: #ffc107;                
@@ -60,6 +62,111 @@ a{
 .header nav ul li a:hover {
   color: #ffc107;            
    
+}
+/* container */
+.container{
+  height: 500px;
+  width: 100%;
+  height: 73vh;
+  background: url(../photos/paris.png) no-repeat center center /cover;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+.content{
+  max-width: 800px;
+  padding-top: 150px;
+  color: white;
+}
+.content h1{
+ font-size: 3.2rem;
+ font-weight: 900;
+ line-height: 1.2;
+ max-width:850px;
+margin-bottom: 30px;
+ 
+
+}
+.content h1 .highlight{
+  color: #ffc107;
+  
+}
+.content p{
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  max-width: 950px;
+  margin: 0 auto;
+
+}
+/* offers */
+.offres{
+  background:#efefef;
+  padding: 60px 20px;
+}
+.contenu{
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.title{
+  font-size: 28px;
+  color: #333333;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+.liste-offre{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.elem-offer{
+  background-color: #ffffff;
+  width: 300px;
+  padding: 15px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+  cursor: pointer;
+  
+ 
+}
+.elem-offer img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  transition: transforms 0.4s ease;
+  
+
+  
+}
+.elem-offer img :hover{
+  transform: translateX(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.018);
+}
+
+
+.offer-text{
+  padding: 20px 10px 10px;
+  text-align: center;
+}
+.offer-text p{
+  margin: 4px 0;
+  color: #555555;
+  font-size: 13px;
+}
+.seprator-offer {
+  width: 30px;
+  height: 1px;
+  background-color: #333333;
+  margin: 15px auto;
 }
 
 
